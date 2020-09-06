@@ -7,6 +7,7 @@ imie = input('Wpisz imię: ')
 
 if len(imie) > 2:
     wiadomosc = f'Cześć {imie.capitalize()}!'
-    print(wiadomosc)
 else:
-    print('Wprowadzone imię ma mniej niż trzy znaki')
+    wiadomosc = 'Wprowadzone imię ma mniej niż trzy znaki'
+
+print(wiadomosc)
