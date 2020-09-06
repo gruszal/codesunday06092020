@@ -10,4 +10,3 @@ else:
     grupa.append(imie)
 
 print(grupa)
-
