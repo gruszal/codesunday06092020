@@ -1,6 +1,7 @@
 # Napisz skrypt, który:
 # Wczyta z klawiatury imię i wypisze na ekran komunikat "Cześć, <imię>!"
 # Jeśli imię będzie miało mniej niż trzy znaki, to poinformuj o tym użytkownika i nie drukuj powitania.
+# użyj funkcji wbudowanej len()
 
 imie = input('Wpisz imię: ')
 
