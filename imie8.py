@@ -5,7 +5,10 @@ grupa = ['Zuzanna', 'Celina', 'Krzysztof']
 
 imie = input('Wpisz imię: ')
 
-grupa.append(imie)
+if imie in grupa:
+    print(f'"{imie}" już jest na liście')
+else:
+    grupa.append(imie)
 
 print(grupa)
 
